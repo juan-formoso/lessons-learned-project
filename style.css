@@ -12,3 +12,16 @@ aside {
     font-style: italic;
     background-color: lightgray;
 }
+nav {
+    text-decoration: none;  
+    color: green;  
+    font-size: 20px;  
+    padding: 8px;
+    text-align: center; 
+}
+nav a:hover {
+    color: blue;
+}
+h1 {
+    text-align: center;
+}
