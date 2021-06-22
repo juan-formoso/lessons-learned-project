@@ -3,6 +3,8 @@ body {
 }
 #cabecalho {
     position: fixed;
+    background-color: green;
+    top: 0;
 }
 aside {
     width: 30%;
@@ -14,7 +16,6 @@ aside {
 }
 nav {
     text-decoration: none;  
-    color: green;  
     font-size: 20px;  
     padding: 8px;
     text-align: center; 
