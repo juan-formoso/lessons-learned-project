@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body {
     background-color: rgb(253, 251, 251);
     font-size: 20px;
     color: grey;
     line-height: 35px;
+    font-family: 'Poppins', sans-serif;
 }
 #cabecalho {
     position: fixed;
@@ -40,6 +40,6 @@ table {
 .box {
     display: flex;
 }
-.description {
+.lado-esquerdo .lado-direito {
     border: 5px solid blue;
 }
