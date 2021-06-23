@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body {
     background-color: rgb(253, 251, 251);
-    font-family: fantasy;
+    font-size: 20px;
+    color: grey;
+    line-height: 35px;
 }
 #cabecalho {
     position: fixed;
@@ -17,7 +20,6 @@ aside {
 }
 nav {
     text-decoration: none;  
-    font-size: 20px;  
     padding: 8px;
     text-align: center; 
 }
