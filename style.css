@@ -32,12 +32,12 @@ table {
     text-align: center;
     border: 1px solid black;
 }
-.description {
-    border: 1px solid blue;
-}
 * {
     box-sizing: border-box;
 }
 .box {
     display: flex;
+}
+.description {
+    border: 5px solid blue;
 }
