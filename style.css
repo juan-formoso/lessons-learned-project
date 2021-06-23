@@ -1,7 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: fantasy;
-    font-size: 17px;
+    font-size: 20px;
 }
 #cabecalho {
     position: fixed;
@@ -32,4 +32,7 @@ table {
     width: 100%;
     text-align: center;
     border: 1px solid black;
+}
+section {
+    display: inline;
 }
