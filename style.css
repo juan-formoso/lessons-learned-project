@@ -1,5 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: fantasy;
+    font-size: 17px;
 }
 #cabecalho {
     position: fixed;
