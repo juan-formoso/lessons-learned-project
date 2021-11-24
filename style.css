@@ -1,45 +1,157 @@
-body {
-    background-color: rgb(253, 251, 251);
-    font-size: 20px;
-    color: grey;
-    line-height: 35px;
-    font-family: 'Poppins', sans-serif;
-}
-#cabecalho {
-    position: fixed;
-    background-color: green;
-    top: 0;
-}
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-}
-nav {
-    text-decoration: none;  
-    padding: 8px;
-    text-align: center; 
-}
-nav a:hover {
-    color: blue;
-}
-h1 {
-    text-align: center;
-}
-table {
-    width: 100%;
-    text-align: center;
-    border: 1px solid black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-.box {
-    display: flex;
+
+section {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
 }
-.lado-esquerdo .lado-direito {
-    border: 5px solid blue;
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  position: relative;
+  max-width: 80px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  font-size: 40px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  display: inline-block;
+}
+
+.content {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textBox h5 {
+  font-size: 1.8em;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.4em;
+}
+
+.content .textBox h5 span {
+  font-size: 1.2em;
+  font-weight: 900;
+  color: #017143;
+}
+
+.content .textBox ol li {
+  color: #333;
+}
+
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #017143;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.content .imgBox {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.content .imgBox img {
+  max-width: 340px;
+}
+
+.thumb {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.thumb li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.thumb li img {
+  max-width: 100px;
+}
+
+.sci {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.6);
+  filter: invert(1);
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #017143;
+  clip-path: circle(600px at right 800px);
 }
