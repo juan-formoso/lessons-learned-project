@@ -13,7 +13,7 @@ Desenvolvido usando:
 * Antes de clonar este repositório, tenha certeza de que você **NÃO** está em um diretório que já é um repositório git.
   * `git clone git@github.com:juan-formoso/lessons-learned-trybe.git`.
   * Entre na pasta do repositório clonado:
-    * `cd sd-014-b-project-lessons-learned`
+    * `cd lessons-learned-project`
 
 ## Instalando Dependências
 
